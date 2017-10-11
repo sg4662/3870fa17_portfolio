@@ -28,7 +28,7 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 18px;
+    font-size: 26px;
     font-family: 'Acme', sans-serif;
 
 }
@@ -43,15 +43,18 @@ h1 {
   font-family: 'Acme', sans-serif;
 }
 
-.form{
-  border: pink 5px;
-}
 
-
-.tealbg{
+/*.tealbg{
   background-color: teal;
+}*/
+
+#portfoliopage{
+  background-color: #b8bd4e;
+  font-family: 'Courgette', cursive;
+
 }
 
-.background{
-  background-color: red;
+#formpage{
+  background-color: #4e983d;
+  font-family: 'Courgette', cursive;
 }
