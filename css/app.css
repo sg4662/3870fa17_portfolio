@@ -48,18 +48,26 @@ h1 {
   background-color: teal;
 }*/
 
-#portfoliopage{
-  background-color: #b8bd4e;
-  font-family: 'Courgette', cursive;
 
-}
-
-#formpage{
+#background{
   background-color: #4e983d;
   font-family: 'Courgette', cursive;
 }
 
 .menu{
-  background-color: #ef4323;
+  background-color: white;
   font-size: 18px;
+
+}
+
+h2{
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  padding: 12px;
+}
+
+#form1{
+  padding: 18px;
 }
