@@ -66,8 +66,14 @@ h2{
   text-align: center;
   font-family: 'Courgette', cursive;
   padding: 12px;
+  
 }
 
 #form1{
   padding: 18px;
+}
+
+img{
+  height: 25%;
+  padding: 12px;
 }
