@@ -41,6 +41,7 @@ body, html {
 h1 {
   font-size: 48px;
   font-family: 'Acme', sans-serif;
+  color: white;
 }
 
 
@@ -70,17 +71,91 @@ h2{
 
 }
 
+
+
 #form1{
   padding: 18px;
+  color: white;
 }
 
 img{
   height: 25%;
-  padding: 12px 0;
+  padding: 12px;
+}
+
+.mobile{
+  color: white;
+  /*display: block;*/
+}
+
+.desktop{
+  color: black;
+  display: none;
 }
 
 p{
 font-size: 18px;
 font-family: 'Domine', serif;
 color: white;
+padding: 15px;
+
+
+}
+h6{
+  display: block;
+  color: black;}
+
+.portrait{
+    height: 50%;
+    width: 25%;
+    display:inline-block;
+
+/* desktop version, screem is wider than 500px*/
+@media only screen and (min-width: 500px){
+
+h1 {
+  color: white;
+}
+
+.mobile{
+  display: none;
+}
+
+.desktop{
+  display: block;
+  color: white;
+}
+
+img {
+  height: 25%;
+  width: 30%;
+}
+
+h6{
+  display: block;
+  color: black;
+}
+
+#gif{
+  height: 100px;
+  width: 100px;
+}
+
+h2{
+  padding: 150px;
+}
+
+.portrait{
+  height: 50%;
+  width: 25%;
+  display:inline-block;
+
+
+}
+p{
+  padding: 150px;
+}
+
+
+
 }
