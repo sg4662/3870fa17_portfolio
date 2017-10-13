@@ -109,11 +109,12 @@ h6{
     height: 50%;
     width: 25%;
     display:inline-block;
+  }
 
 /* desktop version, screem is wider than 500px*/
 @media only screen and (min-width: 500px){
 
-h1 {
+h1{
   color: white;
 }
 
@@ -154,6 +155,10 @@ h2{
 }
 p{
   padding: 150px;
+}
+
+.about{
+  padding: 0;
 }
 
 
