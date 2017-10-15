@@ -14,7 +14,8 @@
       <div class="grid-x grid-padding-x">
         <!--start of main navigation-->
                 <nav class="mainnavigation cell small-12">
-                  <h1>Portfolio</h1>
+                  <h1 class="mobile">Portfolio</h1>
+                  <h1 class="desktop">My Recent Work </h1>
 
                   <ul class="menu cell small-12">
                     <li> <a href="index.html">Home</a></li>
@@ -27,10 +28,38 @@
 
                 </nav>
         <!--end navigation-->
-        <img src="images/MYLOGO.jpg" alt="my logo" class="cell small-12 large-4">
-      <h2 class="cell small-12 large-6"> My intentions are to help you translate what is on your mind into something that represents the exelance of your company.</h2>
-      <p class="cell small-12 large-6"> I believe that when you do what you love doing is not your job, intead it becomes your passion</p>
+        <script>
+
+
+    var today = new Date();
+    var hourNow = today.getHours();
+    console.log(hourNow);
+
+    var greeting;
+
+         if (hourNow > 12) {
+             greeting = "Good Morning!";} else
+             { greeting = 'Good Afternoon';}
+
+
+ document.write(greeting);
+
+  </script>
+        <img src="images/zorn-drawing.jpg" alt="my logo" class="desktop ">
+      <h2 class="cell small-12 large-6"> My intentions are to help you translate what is on your mind into something that represents the exelance of your business.</h2>
+      <p class="cell small-12 large-7"> I believe that when you do what you love doing is not your job, intead it becomes your passion</p>
         <img src="images/animated.gif" alt="animated gif" class="cell small-12 large-3">
+        <img src="images/self-portrait1.jpg" alt="self portrait" class="cell small-12 large-3 self">
+        <p class="cell small-12 large-9"> During the years I have been in the school California State University, East Bay,
+        I have been able to gather some experience in different fields such as photography, graphic design, web development, and media production. During the clases
+      I have take during in school have helped me undestand the meaning of design as well as the purpuse of art.</p>
+
+        <p class="cell small-12 large-6">I have gather some experience in the photography field&#8271; from black and white photogphy to portraits and landschapes.
+         I have learned how to manipulate a DSLR camera and gather experience taking picture for friends and family. I have worked on wedding taking their pictures&#8271;
+       I believed that pictures are a way to save a precious memory forever. </p>
+       <img src="images/guitar.jpg" alt="a guitar picture" class=" cell small-12 large-6">
+       <img src="images/pathwayBW.jpg" alt="black and white landscape" class="cell small-12 large-8">
+       <p class="cell small-12 large-4">I am willig to work for a company that will allow me to help my comunity. I want to bring the opotunities to become an educated people and help others that only limited resources.</p>
       </div>
       </div>
       <footer class="cell small-12">

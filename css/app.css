@@ -98,6 +98,7 @@ font-size: 18px;
 font-family: 'Domine', serif;
 color: white;
 padding: 15px;
+text-indent: 16px;
 
 
 }
@@ -146,7 +147,7 @@ h2{
   padding: 150px;
 }
 
-.portrait{
+.portrait {
   height: 50%;
   width: 25%;
   display:inline-block;
@@ -155,10 +156,24 @@ h2{
 }
 p{
   padding: 150px;
+  text-indent: 25px;
+  position: center;
 }
 
 .about{
-  padding: 0;
+  padding:18px;
+}
+
+.self{
+  height: 25%;
+  width: 20%;
+
+}
+
+script{
+  color: white;
+  text-align: center;
+  font-size: 26px;
 }
 
 
